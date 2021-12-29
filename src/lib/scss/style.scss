@@ -3,12 +3,18 @@ body {
   background: #eee;
   color: #333;
   font-family: sans-serif;
+  min-height: 100vh;
   
   main {
     padding: 1rem;
     margin: 2rem auto;
     max-width: 40rem;
   }
+}
+
+footer {
+  position: sticky;
+  top: 100vh;
 }
 
 :where(h2, h3, h4, h5, h6) {
