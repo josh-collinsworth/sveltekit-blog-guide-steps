@@ -1,6 +1,6 @@
 <script context="module">
-  export const load = ({ page }) => {
-    const currentRoute = page.path
+  export const load = ({ url }) => {
+    const currentRoute = url.pathname
 
     return {
       props: {

@@ -19,6 +19,6 @@ export async function get() {
   })
 
   return {
-    body: JSON.stringify(sortedPosts)
+    body: sortedPosts
   }
 }
